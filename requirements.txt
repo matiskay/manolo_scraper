@@ -54,3 +54,5 @@ w3lib==1.15.0
 wcwidth==0.1.7
 zope.interface==4.3.2
 tqdm
+
+pip>=19.2 # not directly required, pinned by Snyk to avoid a vulnerability
