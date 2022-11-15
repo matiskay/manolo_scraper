@@ -13,7 +13,7 @@ idna==2.1
 ipaddress==1.0.17
 ipython==5.1.0
 ipython-genutils==0.1.0
-lxml==3.6.4
+lxml==4.9.1
 Mako==1.0.4
 MarkupSafe==0.23
 normality==0.2.4
@@ -45,7 +45,7 @@ service-identity==16.0.0
 shub==2.4.2
 simplegeneric==0.8.1
 six==1.10.0
-SQLAlchemy==1.0.13
+SQLAlchemy==1.2.18
 traitlets==4.3.1
 Twisted==16.4.1
 Unidecode==0.4.16
@@ -54,3 +54,4 @@ w3lib==1.15.0
 wcwidth==0.1.7
 zope.interface==4.3.2
 tqdm
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
