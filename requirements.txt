@@ -47,10 +47,11 @@ simplegeneric==0.8.1
 six==1.10.0
 SQLAlchemy==1.0.13
 traitlets==4.3.1
-Twisted==16.4.1
+Twisted==22.10.0rc1
 Unidecode==0.4.16
 Unipath==1.0
 w3lib==1.15.0
 wcwidth==0.1.7
 zope.interface==4.3.2
 tqdm
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
